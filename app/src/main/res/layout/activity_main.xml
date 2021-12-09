@@ -18,6 +18,31 @@
         android:textAlignment="center"
         tools:textSize="@dimen/text_size" />
 
+    <EditText
+        android:id="@+id/nikname_edit"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/what_is_your_nick_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
